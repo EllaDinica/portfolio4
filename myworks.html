@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    
+    <div class="line4.1">
+        <h1 style="text-align: center; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); font-size: 300%;">SOME OF MY WORKS</h1>
+    </div>
+    <br>
+    <table style="font-size: 250%; width: 80%; height: 55%; position: absolute; left: 2.5%;">
+        <tr align="center"><td>1</td> <td>2</td> <td>3</td></tr>
+        <tr align="center"><td>4</td> <td>5</td> <td>6</td></tr>
+        <tr align="center"><td>7</td> <td>8</td> <td>9</td></tr>
+    </table>
+
+    <a href="skills.html" class="back" style="background-color: #d4a373; color: white; font-size: 150%; border-radius: 25%; padding: 1%; position: absolute; top: 85%; left: 5%; text-decoration: none; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">BACK</a>
+    <a href="contaks.html" class="further" style="background-color: #d4a373; color: white; font-size: 150%; border-radius: 25%; padding: 1%; position: absolute; top: 85%; left: 82%; text-decoration: none; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">FURTHER</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("body *").css("opacity", 0).each(function(index){
+      $(this).delay(400 * index).animate({ opacity: 1}, 1000);
+    });
+  });
+</script>
+</body>
+</html>

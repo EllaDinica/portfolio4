@@ -1,0 +1,131 @@
+body{
+    background-color: #fefae0;
+}
+
+img{
+    width: 20%;
+}
+ 
+*{
+    color: #d4a373;
+    font-family: 'Comfortaa', cursive;
+} 
+
+#green1{
+    font-size: 480%;
+    position: absolute;
+    left: 45%;
+    top: 22%;
+    color: #ccd5ae;
+}
+
+#port{
+    font-size: 800%;
+    position: absolute;
+    left: 44%;
+}
+
+.img1{
+    width: 22%;
+    border-radius: 10%;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+
+
+#block1{
+    background-color: #e9edc9;
+    border: 3px solid #7a8069;
+    position: absolute;
+    z-index: -1;
+    left: 5%;
+    top: 50%;
+    width: 65%;
+    height: 40%;
+    border-radius: 5%;
+}
+
+#btn1{
+    background-color: #d4a373;
+    border: 2px solid #5f432c;
+    position: absolute;
+    z-index: 2;
+    left: 65%;
+    top: 20%;
+    width: 25%;
+    height: 20%;
+    border-radius: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* по горизонталі */
+    align-items: center;
+}
+
+.pos{
+    color: #5f432c;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+table, th, td{
+    border: 2px solid #c9d4ab;
+}
+
+#thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+@media (max-device-width: 480px){
+    *{font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    #block1{
+        left: -3%;
+        width: 80%;
+        height: 35%;
+        top: 10%;
+    }
+
+    .img1{
+        width: 30%;
+        top: 11%; 
+        left: 3%;
+    }
+
+    #port{
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        font-size: 400%;
+    }
+
+    #green1{
+        position: absolute;
+        top: 62%;
+        left: 5%;
+        font-size: 230%;
+    }
+
+    #btn1{
+        left: 50%;
+        width: 45%;
+        padding: 1%;
+    }
+
+    .pos{
+        font-size: 160%;
+        content: "EllaDinica &rarr;";
+    }
+
+    #strich{
+        visibility: hidden;
+    }
+
+    #text{
+        width: 90% !important;
+    }
+}

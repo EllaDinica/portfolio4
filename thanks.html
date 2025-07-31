@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="thanks">
+        <h1 style="font-size: 400%; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">THANK YOU FOR YOUR VIEWING</h1>
+    </div>
+
+    <a href="index.html" class="further" style="background-color: #d4a373; color: white; font-size: 150%; border-radius: 25%;
+     padding: 1%; position: absolute; top: 85%; left: 82%; text-decoration: none; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">
+     to the beginning
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("body *").css("opacity", 0).each(function(index){
+      $(this).delay(400 * index).animate({ opacity: 1}, 2000);
+    });
+  });
+</script>
+</body>
+</html>

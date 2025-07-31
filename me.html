@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+
+  <div id="strich" style="background-color:#ccd5ae; border: 2px solid #7a8069; width: 16%; height: 50%; position: absolute; top: -1%; left: 75%; display: flex; justify-content: center; align-items: center;">
+    <img src="fotoквадрат.jpg" style="border-radius: 50%; border: 2px solid #7a8069; width: 101%; position: absolute; top: 63%;">
+  </div>
+    
+<div> <h1 style="font-size: 600%; position: absolute; left: 5%; top: -7%; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">HELLO!</h1> 
+    <div id="text" style="color: #b3bb9b; width: 65%; font-size: 170%; position: absolute; top: 20%; left: 5%;">
+        I'm Diníca — a web developer passionate about clean code, creative solutions, and meaningful digital experiences.
+        I'm only 13, but age doesn’t limit ambition — I work hard every day to grow my skills and build a strong path in web development.<br>
+        I create websites that not only look beautiful, but also perform smoothly. My goal is to bring your vision to life through modern, responsive, and well-structured web products.<br>
+        I work with HTML, CSS, JavaScript, and design tools like Figma, Canva, and GitHub. I’m constantly learning, improving, and ready to take on challenges that push my limits.<br>
+        Each project is more than just code to me — it’s a way to help people achieve their goals and stand out online. That’s what makes this work so special to me
+     </div>
+    </div>
+
+    <a href="skills.html" class="further" style="background-color: #d4a373; color: white; font-size: 150%; border-radius: 25%; padding: 1%; position: absolute; top: 85%; left: 82%; text-decoration: none; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">FURTHER</a>
+    <a href="index.html" class="BACK" style="background-color: #d4a373; color: white; font-size: 150%; border-radius: 25%; padding: 1%; position: absolute; top: 85%; left: 5%; text-decoration: none; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">BACK</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("body *").css("opacity", 0).each(function(index){
+      $(this).delay(400 * index).animate({ opacity: 1}, 1000);
+    });
+  });
+</script>
+</body>
+</html> 
